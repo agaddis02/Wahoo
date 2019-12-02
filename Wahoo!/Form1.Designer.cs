@@ -33,13 +33,13 @@
             this.buttonRoll = new System.Windows.Forms.Button();
             this.textBoxRolls = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox5Kind = new System.Windows.Forms.CheckBox();
+            this.checkBox4Kind = new System.Windows.Forms.CheckBox();
+            this.checkBox3Kind = new System.Windows.Forms.CheckBox();
+            this.checkBoxFHouse = new System.Windows.Forms.CheckBox();
+            this.checkBoxSmStr = new System.Windows.Forms.CheckBox();
+            this.checkBoxLgStr = new System.Windows.Forms.CheckBox();
+            this.checkBoxChan = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxTotalScore = new System.Windows.Forms.TextBox();
             this.textBoxChance = new System.Windows.Forms.TextBox();
@@ -54,44 +54,44 @@
             this.checkBoxDie3 = new System.Windows.Forms.CheckBox();
             this.checkBoxDie4 = new System.Windows.Forms.CheckBox();
             this.checkBoxDie5 = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pictureBoxDie5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDie4 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDie3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDie1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDie2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 45F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Revue", 44.99999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Cornsilk;
             this.label1.Location = new System.Drawing.Point(46, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 74);
+            this.label1.Size = new System.Drawing.Size(264, 72);
             this.label1.TabIndex = 0;
             this.label1.Text = "Wahoo!";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS Reference Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Revue", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
             this.label2.Location = new System.Drawing.Point(165, 197);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 34);
+            this.label2.Size = new System.Drawing.Size(211, 35);
             this.label2.TabIndex = 1;
             this.label2.Text = "Click To Play!";
             // 
             // buttonRoll
             // 
             this.buttonRoll.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonRoll.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRoll.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRoll.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonRoll.Location = new System.Drawing.Point(612, 463);
             this.buttonRoll.Name = "buttonRoll";
@@ -111,106 +111,106 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Cornsilk;
             this.label3.Location = new System.Drawing.Point(604, 415);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 18);
+            this.label3.Size = new System.Drawing.Size(78, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Your Rolls:";
             // 
-            // checkBox1
+            // checkBox5Kind
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox1.Location = new System.Drawing.Point(656, 78);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(163, 22);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "Wahoo! 5 of a kind";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox5Kind.AutoSize = true;
+            this.checkBox5Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5Kind.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBox5Kind.Location = new System.Drawing.Point(656, 78);
+            this.checkBox5Kind.Name = "checkBox5Kind";
+            this.checkBox5Kind.Size = new System.Drawing.Size(155, 20);
+            this.checkBox5Kind.TabIndex = 5;
+            this.checkBox5Kind.Text = "Wahoo! 5 of a kind";
+            this.checkBox5Kind.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBox4Kind
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox2.Location = new System.Drawing.Point(656, 102);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(125, 22);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Four of a kind";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox4Kind.AutoSize = true;
+            this.checkBox4Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4Kind.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBox4Kind.Location = new System.Drawing.Point(656, 102);
+            this.checkBox4Kind.Name = "checkBox4Kind";
+            this.checkBox4Kind.Size = new System.Drawing.Size(120, 20);
+            this.checkBox4Kind.TabIndex = 6;
+            this.checkBox4Kind.Text = "Four of a kind";
+            this.checkBox4Kind.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBox3Kind
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox3.Location = new System.Drawing.Point(656, 127);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(133, 22);
-            this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "Three of a kind";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3Kind.AutoSize = true;
+            this.checkBox3Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3Kind.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBox3Kind.Location = new System.Drawing.Point(656, 127);
+            this.checkBox3Kind.Name = "checkBox3Kind";
+            this.checkBox3Kind.Size = new System.Drawing.Size(128, 20);
+            this.checkBox3Kind.TabIndex = 7;
+            this.checkBox3Kind.Text = "Three of a kind";
+            this.checkBox3Kind.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBoxFHouse
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox4.Location = new System.Drawing.Point(656, 154);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(99, 22);
-            this.checkBox4.TabIndex = 8;
-            this.checkBox4.Text = "Full House";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxFHouse.AutoSize = true;
+            this.checkBoxFHouse.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxFHouse.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBoxFHouse.Location = new System.Drawing.Point(656, 154);
+            this.checkBoxFHouse.Name = "checkBoxFHouse";
+            this.checkBoxFHouse.Size = new System.Drawing.Size(96, 20);
+            this.checkBoxFHouse.TabIndex = 8;
+            this.checkBoxFHouse.Text = "Full House";
+            this.checkBoxFHouse.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBoxSmStr
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox5.Location = new System.Drawing.Point(657, 179);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(126, 22);
-            this.checkBox5.TabIndex = 9;
-            this.checkBox5.Text = "Small Straight";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBoxSmStr.AutoSize = true;
+            this.checkBoxSmStr.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxSmStr.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBoxSmStr.Location = new System.Drawing.Point(657, 179);
+            this.checkBoxSmStr.Name = "checkBoxSmStr";
+            this.checkBoxSmStr.Size = new System.Drawing.Size(117, 20);
+            this.checkBoxSmStr.TabIndex = 9;
+            this.checkBoxSmStr.Text = "Small Straight";
+            this.checkBoxSmStr.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // checkBoxLgStr
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox6.Location = new System.Drawing.Point(656, 206);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(128, 22);
-            this.checkBox6.TabIndex = 10;
-            this.checkBox6.Text = "Large Straight";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBoxLgStr.AutoSize = true;
+            this.checkBoxLgStr.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxLgStr.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBoxLgStr.Location = new System.Drawing.Point(656, 206);
+            this.checkBoxLgStr.Name = "checkBoxLgStr";
+            this.checkBoxLgStr.Size = new System.Drawing.Size(118, 20);
+            this.checkBoxLgStr.TabIndex = 10;
+            this.checkBoxLgStr.Text = "Large Straight";
+            this.checkBoxLgStr.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // checkBoxChan
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.ForeColor = System.Drawing.Color.Cornsilk;
-            this.checkBox7.Location = new System.Drawing.Point(657, 233);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(78, 22);
-            this.checkBox7.TabIndex = 11;
-            this.checkBox7.Text = "Chance";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBoxChan.AutoSize = true;
+            this.checkBoxChan.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxChan.ForeColor = System.Drawing.Color.Cornsilk;
+            this.checkBoxChan.Location = new System.Drawing.Point(657, 233);
+            this.checkBoxChan.Name = "checkBoxChan";
+            this.checkBoxChan.Size = new System.Drawing.Size(73, 20);
+            this.checkBoxChan.TabIndex = 11;
+            this.checkBoxChan.Text = "Chance";
+            this.checkBoxChan.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("MS Reference Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Cornsilk;
             this.label4.Location = new System.Drawing.Point(711, 268);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 18);
+            this.label4.Size = new System.Drawing.Size(80, 16);
             this.label4.TabIndex = 12;
             this.label4.Text = "Total Score";
             // 
@@ -281,10 +281,10 @@
             // checkBoxDie1
             // 
             this.checkBoxDie1.AutoSize = true;
-            this.checkBoxDie1.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie1.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie1.Location = new System.Drawing.Point(74, 521);
             this.checkBoxDie1.Name = "checkBoxDie1";
-            this.checkBoxDie1.Size = new System.Drawing.Size(33, 19);
+            this.checkBoxDie1.Size = new System.Drawing.Size(35, 18);
             this.checkBoxDie1.TabIndex = 21;
             this.checkBoxDie1.Text = "0";
             this.checkBoxDie1.UseVisualStyleBackColor = true;
@@ -292,10 +292,10 @@
             // checkBoxDie2
             // 
             this.checkBoxDie2.AutoSize = true;
-            this.checkBoxDie2.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie2.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie2.Location = new System.Drawing.Point(186, 463);
             this.checkBoxDie2.Name = "checkBoxDie2";
-            this.checkBoxDie2.Size = new System.Drawing.Size(33, 19);
+            this.checkBoxDie2.Size = new System.Drawing.Size(35, 18);
             this.checkBoxDie2.TabIndex = 22;
             this.checkBoxDie2.Text = "0";
             this.checkBoxDie2.UseVisualStyleBackColor = true;
@@ -303,10 +303,10 @@
             // checkBoxDie3
             // 
             this.checkBoxDie3.AutoSize = true;
-            this.checkBoxDie3.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie3.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie3.Location = new System.Drawing.Point(303, 405);
             this.checkBoxDie3.Name = "checkBoxDie3";
-            this.checkBoxDie3.Size = new System.Drawing.Size(33, 19);
+            this.checkBoxDie3.Size = new System.Drawing.Size(35, 18);
             this.checkBoxDie3.TabIndex = 23;
             this.checkBoxDie3.Text = "0";
             this.checkBoxDie3.UseVisualStyleBackColor = true;
@@ -314,10 +314,10 @@
             // checkBoxDie4
             // 
             this.checkBoxDie4.AutoSize = true;
-            this.checkBoxDie4.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie4.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie4.Location = new System.Drawing.Point(418, 369);
             this.checkBoxDie4.Name = "checkBoxDie4";
-            this.checkBoxDie4.Size = new System.Drawing.Size(33, 19);
+            this.checkBoxDie4.Size = new System.Drawing.Size(35, 18);
             this.checkBoxDie4.TabIndex = 24;
             this.checkBoxDie4.Text = "0";
             this.checkBoxDie4.UseVisualStyleBackColor = true;
@@ -325,58 +325,58 @@
             // checkBoxDie5
             // 
             this.checkBoxDie5.AutoSize = true;
-            this.checkBoxDie5.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie5.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie5.Location = new System.Drawing.Point(537, 320);
             this.checkBoxDie5.Name = "checkBoxDie5";
-            this.checkBoxDie5.Size = new System.Drawing.Size(33, 19);
+            this.checkBoxDie5.Size = new System.Drawing.Size(35, 18);
             this.checkBoxDie5.TabIndex = 25;
             this.checkBoxDie5.Text = "0";
             this.checkBoxDie5.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // pictureBoxDie5
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Cornsilk;
-            this.pictureBox1.Location = new System.Drawing.Point(495, 214);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxDie5.BackColor = System.Drawing.Color.Cornsilk;
+            this.pictureBoxDie5.Location = new System.Drawing.Point(495, 214);
+            this.pictureBoxDie5.Name = "pictureBoxDie5";
+            this.pictureBoxDie5.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxDie5.TabIndex = 26;
+            this.pictureBoxDie5.TabStop = false;
             // 
-            // pictureBox2
+            // pictureBoxDie4
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Cornsilk;
-            this.pictureBox2.Location = new System.Drawing.Point(378, 263);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxDie4.BackColor = System.Drawing.Color.Cornsilk;
+            this.pictureBoxDie4.Location = new System.Drawing.Point(378, 263);
+            this.pictureBoxDie4.Name = "pictureBoxDie4";
+            this.pictureBoxDie4.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxDie4.TabIndex = 27;
+            this.pictureBoxDie4.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBoxDie3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Cornsilk;
-            this.pictureBox3.Location = new System.Drawing.Point(262, 299);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.TabIndex = 28;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxDie3.BackColor = System.Drawing.Color.Cornsilk;
+            this.pictureBoxDie3.Location = new System.Drawing.Point(262, 299);
+            this.pictureBoxDie3.Name = "pictureBoxDie3";
+            this.pictureBoxDie3.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxDie3.TabIndex = 28;
+            this.pictureBoxDie3.TabStop = false;
             // 
-            // pictureBox4
+            // pictureBoxDie1
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Cornsilk;
-            this.pictureBox4.Location = new System.Drawing.Point(30, 415);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox4.TabIndex = 29;
-            this.pictureBox4.TabStop = false;
+            this.pictureBoxDie1.BackColor = System.Drawing.Color.Cornsilk;
+            this.pictureBoxDie1.Location = new System.Drawing.Point(30, 415);
+            this.pictureBoxDie1.Name = "pictureBoxDie1";
+            this.pictureBoxDie1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxDie1.TabIndex = 29;
+            this.pictureBoxDie1.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBoxDie2
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Cornsilk;
-            this.pictureBox5.Location = new System.Drawing.Point(145, 357);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox5.TabIndex = 30;
-            this.pictureBox5.TabStop = false;
+            this.pictureBoxDie2.BackColor = System.Drawing.Color.Cornsilk;
+            this.pictureBoxDie2.Location = new System.Drawing.Point(145, 357);
+            this.pictureBoxDie2.Name = "pictureBoxDie2";
+            this.pictureBoxDie2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBoxDie2.TabIndex = 30;
+            this.pictureBoxDie2.TabStop = false;
             // 
             // Form1
             // 
@@ -384,11 +384,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(919, 549);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxDie2);
+            this.Controls.Add(this.pictureBoxDie1);
+            this.Controls.Add(this.pictureBoxDie3);
+            this.Controls.Add(this.pictureBoxDie4);
+            this.Controls.Add(this.pictureBoxDie5);
             this.Controls.Add(this.checkBoxDie5);
             this.Controls.Add(this.checkBoxDie4);
             this.Controls.Add(this.checkBoxDie3);
@@ -403,13 +403,13 @@
             this.Controls.Add(this.textBoxChance);
             this.Controls.Add(this.textBoxTotalScore);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBoxChan);
+            this.Controls.Add(this.checkBoxLgStr);
+            this.Controls.Add(this.checkBoxSmStr);
+            this.Controls.Add(this.checkBoxFHouse);
+            this.Controls.Add(this.checkBox3Kind);
+            this.Controls.Add(this.checkBox4Kind);
+            this.Controls.Add(this.checkBox5Kind);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxRolls);
             this.Controls.Add(this.buttonRoll);
@@ -418,11 +418,11 @@
             this.ForeColor = System.Drawing.Color.Cornsilk;
             this.Name = "Form1";
             this.Text = "Wahoo!";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDie2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -435,13 +435,13 @@
         private System.Windows.Forms.Button buttonRoll;
         private System.Windows.Forms.TextBox textBoxRolls;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox5Kind;
+        private System.Windows.Forms.CheckBox checkBox4Kind;
+        private System.Windows.Forms.CheckBox checkBox3Kind;
+        private System.Windows.Forms.CheckBox checkBoxFHouse;
+        private System.Windows.Forms.CheckBox checkBoxSmStr;
+        private System.Windows.Forms.CheckBox checkBoxLgStr;
+        private System.Windows.Forms.CheckBox checkBoxChan;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxTotalScore;
         private System.Windows.Forms.TextBox textBoxChance;
@@ -456,11 +456,11 @@
         private System.Windows.Forms.CheckBox checkBoxDie3;
         private System.Windows.Forms.CheckBox checkBoxDie4;
         private System.Windows.Forms.CheckBox checkBoxDie5;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBoxDie5;
+        private System.Windows.Forms.PictureBox pictureBoxDie4;
+        private System.Windows.Forms.PictureBox pictureBoxDie3;
+        private System.Windows.Forms.PictureBox pictureBoxDie1;
+        private System.Windows.Forms.PictureBox pictureBoxDie2;
     }
 }
 
