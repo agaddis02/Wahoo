@@ -69,29 +69,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Revue", 44.99999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 44.99999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Cornsilk;
             this.label1.Location = new System.Drawing.Point(46, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 72);
+            this.label1.Size = new System.Drawing.Size(236, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "Wahoo!";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Revue", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
             this.label2.Location = new System.Drawing.Point(165, 197);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(211, 35);
+            this.label2.Size = new System.Drawing.Size(195, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Click To Play!";
             // 
             // buttonRoll
             // 
             this.buttonRoll.BackColor = System.Drawing.Color.Cornsilk;
-            this.buttonRoll.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRoll.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonRoll.Location = new System.Drawing.Point(612, 463);
             this.buttonRoll.Name = "buttonRoll";
@@ -111,90 +111,96 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Cornsilk;
             this.label3.Location = new System.Drawing.Point(604, 415);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 16);
+            this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Your Rolls:";
             // 
             // checkBox5Kind
             // 
             this.checkBox5Kind.AutoSize = true;
-            this.checkBox5Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5Kind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox5Kind.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBox5Kind.Location = new System.Drawing.Point(656, 78);
             this.checkBox5Kind.Name = "checkBox5Kind";
-            this.checkBox5Kind.Size = new System.Drawing.Size(155, 20);
+            this.checkBox5Kind.Size = new System.Drawing.Size(137, 20);
             this.checkBox5Kind.TabIndex = 5;
             this.checkBox5Kind.Text = "Wahoo! 5 of a kind";
             this.checkBox5Kind.UseVisualStyleBackColor = true;
+            this.checkBox5Kind.CheckedChanged += new System.EventHandler(this.checkBox5Kind_CheckedChanged);
             // 
             // checkBox4Kind
             // 
             this.checkBox4Kind.AutoSize = true;
-            this.checkBox4Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4Kind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox4Kind.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBox4Kind.Location = new System.Drawing.Point(656, 102);
             this.checkBox4Kind.Name = "checkBox4Kind";
-            this.checkBox4Kind.Size = new System.Drawing.Size(120, 20);
+            this.checkBox4Kind.Size = new System.Drawing.Size(107, 20);
             this.checkBox4Kind.TabIndex = 6;
             this.checkBox4Kind.Text = "Four of a kind";
             this.checkBox4Kind.UseVisualStyleBackColor = true;
+            this.checkBox4Kind.CheckedChanged += new System.EventHandler(this.checkBox4Kind_CheckedChanged);
             // 
             // checkBox3Kind
             // 
             this.checkBox3Kind.AutoSize = true;
-            this.checkBox3Kind.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3Kind.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3Kind.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBox3Kind.Location = new System.Drawing.Point(656, 127);
             this.checkBox3Kind.Name = "checkBox3Kind";
-            this.checkBox3Kind.Size = new System.Drawing.Size(128, 20);
+            this.checkBox3Kind.Size = new System.Drawing.Size(116, 20);
             this.checkBox3Kind.TabIndex = 7;
             this.checkBox3Kind.Text = "Three of a kind";
             this.checkBox3Kind.UseVisualStyleBackColor = true;
+            this.checkBox3Kind.CheckedChanged += new System.EventHandler(this.checkBox3Kind_CheckedChanged);
             // 
             // checkBoxFHouse
             // 
             this.checkBoxFHouse.AutoSize = true;
-            this.checkBoxFHouse.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxFHouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxFHouse.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBoxFHouse.Location = new System.Drawing.Point(656, 154);
             this.checkBoxFHouse.Name = "checkBoxFHouse";
-            this.checkBoxFHouse.Size = new System.Drawing.Size(96, 20);
+            this.checkBoxFHouse.Size = new System.Drawing.Size(91, 20);
             this.checkBoxFHouse.TabIndex = 8;
             this.checkBoxFHouse.Text = "Full House";
             this.checkBoxFHouse.UseVisualStyleBackColor = true;
+            this.checkBoxFHouse.CheckedChanged += new System.EventHandler(this.checkBoxFHouse_CheckedChanged);
             // 
             // checkBoxSmStr
             // 
             this.checkBoxSmStr.AutoSize = true;
-            this.checkBoxSmStr.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxSmStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxSmStr.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBoxSmStr.Location = new System.Drawing.Point(657, 179);
             this.checkBoxSmStr.Name = "checkBoxSmStr";
-            this.checkBoxSmStr.Size = new System.Drawing.Size(117, 20);
+            this.checkBoxSmStr.Size = new System.Drawing.Size(109, 20);
             this.checkBoxSmStr.TabIndex = 9;
             this.checkBoxSmStr.Text = "Small Straight";
             this.checkBoxSmStr.UseVisualStyleBackColor = true;
+            this.checkBoxSmStr.CheckedChanged += new System.EventHandler(this.checkBoxSmStr_CheckedChanged);
             // 
             // checkBoxLgStr
             // 
             this.checkBoxLgStr.AutoSize = true;
-            this.checkBoxLgStr.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxLgStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxLgStr.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBoxLgStr.Location = new System.Drawing.Point(656, 206);
             this.checkBoxLgStr.Name = "checkBoxLgStr";
-            this.checkBoxLgStr.Size = new System.Drawing.Size(118, 20);
+            this.checkBoxLgStr.Size = new System.Drawing.Size(110, 20);
             this.checkBoxLgStr.TabIndex = 10;
             this.checkBoxLgStr.Text = "Large Straight";
             this.checkBoxLgStr.UseVisualStyleBackColor = true;
+            this.checkBoxLgStr.CheckedChanged += new System.EventHandler(this.checkBoxLgStr_CheckedChanged);
             // 
             // checkBoxChan
             // 
             this.checkBoxChan.AutoSize = true;
-            this.checkBoxChan.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxChan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxChan.ForeColor = System.Drawing.Color.Cornsilk;
             this.checkBoxChan.Location = new System.Drawing.Point(657, 233);
             this.checkBoxChan.Name = "checkBoxChan";
@@ -202,15 +208,16 @@
             this.checkBoxChan.TabIndex = 11;
             this.checkBoxChan.Text = "Chance";
             this.checkBoxChan.UseVisualStyleBackColor = true;
+            this.checkBoxChan.CheckedChanged += new System.EventHandler(this.checkBoxChan_CheckedChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Revue", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Cornsilk;
             this.label4.Location = new System.Drawing.Point(711, 268);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(78, 16);
             this.label4.TabIndex = 12;
             this.label4.Text = "Total Score";
             // 
@@ -281,10 +288,10 @@
             // checkBoxDie1
             // 
             this.checkBoxDie1.AutoSize = true;
-            this.checkBoxDie1.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie1.Location = new System.Drawing.Point(74, 521);
             this.checkBoxDie1.Name = "checkBoxDie1";
-            this.checkBoxDie1.Size = new System.Drawing.Size(35, 18);
+            this.checkBoxDie1.Size = new System.Drawing.Size(32, 17);
             this.checkBoxDie1.TabIndex = 21;
             this.checkBoxDie1.Text = "0";
             this.checkBoxDie1.UseVisualStyleBackColor = true;
@@ -292,10 +299,10 @@
             // checkBoxDie2
             // 
             this.checkBoxDie2.AutoSize = true;
-            this.checkBoxDie2.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie2.Location = new System.Drawing.Point(186, 463);
             this.checkBoxDie2.Name = "checkBoxDie2";
-            this.checkBoxDie2.Size = new System.Drawing.Size(35, 18);
+            this.checkBoxDie2.Size = new System.Drawing.Size(32, 17);
             this.checkBoxDie2.TabIndex = 22;
             this.checkBoxDie2.Text = "0";
             this.checkBoxDie2.UseVisualStyleBackColor = true;
@@ -303,10 +310,10 @@
             // checkBoxDie3
             // 
             this.checkBoxDie3.AutoSize = true;
-            this.checkBoxDie3.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie3.Location = new System.Drawing.Point(303, 405);
             this.checkBoxDie3.Name = "checkBoxDie3";
-            this.checkBoxDie3.Size = new System.Drawing.Size(35, 18);
+            this.checkBoxDie3.Size = new System.Drawing.Size(32, 17);
             this.checkBoxDie3.TabIndex = 23;
             this.checkBoxDie3.Text = "0";
             this.checkBoxDie3.UseVisualStyleBackColor = true;
@@ -314,10 +321,10 @@
             // checkBoxDie4
             // 
             this.checkBoxDie4.AutoSize = true;
-            this.checkBoxDie4.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie4.Location = new System.Drawing.Point(418, 369);
             this.checkBoxDie4.Name = "checkBoxDie4";
-            this.checkBoxDie4.Size = new System.Drawing.Size(35, 18);
+            this.checkBoxDie4.Size = new System.Drawing.Size(32, 17);
             this.checkBoxDie4.TabIndex = 24;
             this.checkBoxDie4.Text = "0";
             this.checkBoxDie4.UseVisualStyleBackColor = true;
@@ -325,10 +332,10 @@
             // checkBoxDie5
             // 
             this.checkBoxDie5.AutoSize = true;
-            this.checkBoxDie5.Font = new System.Drawing.Font("Revue", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxDie5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxDie5.Location = new System.Drawing.Point(537, 320);
             this.checkBoxDie5.Name = "checkBoxDie5";
-            this.checkBoxDie5.Size = new System.Drawing.Size(35, 18);
+            this.checkBoxDie5.Size = new System.Drawing.Size(32, 17);
             this.checkBoxDie5.TabIndex = 25;
             this.checkBoxDie5.Text = "0";
             this.checkBoxDie5.UseVisualStyleBackColor = true;
