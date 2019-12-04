@@ -99,6 +99,7 @@
             this.buttonRoll.TabIndex = 2;
             this.buttonRoll.Text = "Roll the Dice";
             this.buttonRoll.UseVisualStyleBackColor = false;
+            this.buttonRoll.Click += new System.EventHandler(this.buttonRoll_Click);
             // 
             // textBoxRolls
             // 
