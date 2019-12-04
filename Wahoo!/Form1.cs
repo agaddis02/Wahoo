@@ -307,11 +307,12 @@ namespace Wahoo_
                 }
                 if (count == 2)
                 {
+                    sum = currentNum * count;
                     break;
                 }
             }
 
-            sum *= count;
+            
             if (count >= 2)
             {
                 return sum;
@@ -356,11 +357,12 @@ namespace Wahoo_
                 }
                 if (count == 3)
                 {
+                    sum = currentNum * count;
                     break;
                 }
             }
 
-            sum *= count;
+            
             if (count >= 3)
             {
                 return sum;
