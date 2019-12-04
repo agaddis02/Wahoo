@@ -5,6 +5,5 @@ E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.csprojAssemblyReference.cache
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo_.Form1.resources
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo_.Properties.Resources.resources
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.csproj.GenerateResource.cache
-E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.csproj.CoreCompileInputs.cache
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.exe
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.pdb

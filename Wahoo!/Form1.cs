@@ -26,7 +26,6 @@ namespace Wahoo_
             if (numRoll == 0 || checkBoxDie1.Checked == true)
             {
                 int x = rand.Next(1, 7);
-                dieVal[0] = x;
                 if( x == 1)
                 {
                     this.pictureBoxDie1.Image = global::Wahoo_.Properties.Resources.die_1;
@@ -47,12 +46,16 @@ namespace Wahoo_
                 {
                     this.pictureBoxDie1.Image = global::Wahoo_.Properties.Resources.die_5;
                 }
-                
+                if (x == 6)
+                {
+                    this.pictureBoxDie1.Image = global::Wahoo_.Properties.Resources.die_6;
+                }
+                dieVal[0] = x;
+                checkBoxDie1.Text = x.ToString();
             }
             if (numRoll == 0 || checkBoxDie2.Checked == true)
             {
                 int x = rand.Next(1, 7);
-                dieVal[1] = x;
                 if (x == 1)
                 {
                     this.pictureBoxDie2.Image = global::Wahoo_.Properties.Resources.die_1;
@@ -73,12 +76,16 @@ namespace Wahoo_
                 {
                     this.pictureBoxDie2.Image = global::Wahoo_.Properties.Resources.die_5;
                 }
-                
+                if (x == 6)
+                {
+                    this.pictureBoxDie2.Image = global::Wahoo_.Properties.Resources.die_6;
+                }
+                dieVal[1] = x;
+                checkBoxDie2.Text = x.ToString();
             }
             if (numRoll == 0 || checkBoxDie3.Checked == true)
             {
                 int x = rand.Next(1, 7);
-                dieVal[2] = x;
                 if (x == 1)
                 {
                     this.pictureBoxDie3.Image = global::Wahoo_.Properties.Resources.die_1;
@@ -99,12 +106,16 @@ namespace Wahoo_
                 {
                     this.pictureBoxDie3.Image = global::Wahoo_.Properties.Resources.die_5;
                 }
-                
+                if (x == 6)
+                {
+                    this.pictureBoxDie3.Image = global::Wahoo_.Properties.Resources.die_6;
+                }
+                dieVal[2] = x;
+                checkBoxDie3.Text = x.ToString();
             }
             if (numRoll == 0 || checkBoxDie4.Checked == true)
             {
                 int x = rand.Next(1, 7);
-                dieVal[3] = x;
                 if (x == 1)
                 {
                     this.pictureBoxDie4.Image = global::Wahoo_.Properties.Resources.die_1;
@@ -125,12 +136,16 @@ namespace Wahoo_
                 {
                     this.pictureBoxDie4.Image = global::Wahoo_.Properties.Resources.die_5;
                 }
-                
+                if (x == 6)
+                {
+                    this.pictureBoxDie4.Image = global::Wahoo_.Properties.Resources.die_6;
+                }
+                dieVal[3] = x;
+                checkBoxDie4.Text = x.ToString();
             }
             if (numRoll == 0 || checkBoxDie5.Checked == true)
             {
                 int x = rand.Next(1, 7);
-                dieVal[4] = x;
                 if (x == 1)
                 {
                     this.pictureBoxDie5.Image = global::Wahoo_.Properties.Resources.die_1;
@@ -151,9 +166,19 @@ namespace Wahoo_
                 {
                     this.pictureBoxDie5.Image = global::Wahoo_.Properties.Resources.die_5;
                 }
-                
+                if (x == 6)
+                {
+                    this.pictureBoxDie5.Image = global::Wahoo_.Properties.Resources.die_6;
+                }
+                dieVal[4] = x;
+                checkBoxDie5.Text = x.ToString();
             }
             numRoll++;
+            textBoxRolls.Text = numRoll.ToString();
+            if(numRoll == 3)
+            {
+                buttonRoll.Enabled = false;
+            }
         }
     }
 }
