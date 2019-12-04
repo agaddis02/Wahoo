@@ -7,3 +7,13 @@ E:\Wahoo\Wahoo!\obj\Debug\Wahoo_.Properties.Resources.resources
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.csproj.GenerateResource.cache
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.exe
 E:\Wahoo\Wahoo!\obj\Debug\Wahoo!.pdb
+E:\GitHub\Wahoo\Wahoo!\bin\Debug\Wahoo!.exe.config
+E:\GitHub\Wahoo\Wahoo!\bin\Debug\Wahoo!.exe
+E:\GitHub\Wahoo\Wahoo!\bin\Debug\Wahoo!.pdb
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo!.csprojAssemblyReference.cache
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo_.Form1.resources
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo_.Properties.Resources.resources
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo!.csproj.GenerateResource.cache
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo!.csproj.CoreCompileInputs.cache
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo!.exe
+E:\GitHub\Wahoo\Wahoo!\obj\Debug\Wahoo!.pdb
