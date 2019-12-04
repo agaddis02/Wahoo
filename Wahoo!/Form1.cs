@@ -35,6 +35,7 @@ namespace Wahoo_
                 checkBox5Kind.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
@@ -55,6 +56,7 @@ namespace Wahoo_
                 checkBox4Kind.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
@@ -75,6 +77,7 @@ namespace Wahoo_
                 checkBox3Kind.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
@@ -91,16 +94,17 @@ namespace Wahoo_
             if (threeOfAKind(dieVal))
             {
                 itemScore = threeSummed(dieVal);
-                textBox3Kind.Text = itemScore.ToString("F");
-                checkBox3Kind.Enabled = false;
+                textBoxFullHouse.Text = itemScore.ToString("F");
+                checkBoxFHouse.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
                 itemScore = 0;
-                textBox3Kind.Text = itemScore.ToString("F");
-                checkBox3Kind.Enabled = false;
+                textBoxFullHouse.Text = itemScore.ToString("F");
+                checkBoxFHouse.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
             }
@@ -115,6 +119,7 @@ namespace Wahoo_
                 checkBoxSmStr.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
@@ -135,6 +140,7 @@ namespace Wahoo_
                 checkBoxLgStr.Enabled = false;
                 totalScore += itemScore;
                 textBoxTotalScore.Text = totalScore.ToString("F");
+                buttonRoll.Enabled = true;
             }
             else
             {
@@ -244,6 +250,7 @@ namespace Wahoo_
             int count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 int currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
@@ -288,9 +295,11 @@ namespace Wahoo_
 			*/
             int count = 0;
             int sum = 0;
+            int currentNum = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                int currentNum = arr[i];
+                Array.Sort(arr);
+                currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
                 {
@@ -311,12 +320,12 @@ namespace Wahoo_
                 }
                 if (count == 2)
                 {
-                    sum = currentNum * count;
+                    
                     break;
                 }
             }
 
-            
+            sum = currentNum * count;
             if (count >= 2)
             {
                 return sum;
@@ -338,9 +347,11 @@ namespace Wahoo_
 			*/
             int count = 0;
             int sum = 0;
+            int currentNum = 0;
             for (int i = 0; i < arr.Length; i++)
             {
-                int currentNum = arr[i];
+                Array.Sort(arr);
+                currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
                 {
@@ -361,12 +372,12 @@ namespace Wahoo_
                 }
                 if (count == 3)
                 {
-                    sum = currentNum * count;
+                    
                     break;
                 }
             }
 
-            
+            sum = currentNum * count;
             if (count >= 3)
             {
                 return sum;
@@ -388,6 +399,7 @@ namespace Wahoo_
             int count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 int currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
@@ -433,6 +445,7 @@ namespace Wahoo_
             int count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 int currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
@@ -479,6 +492,7 @@ namespace Wahoo_
             int count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 int currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
@@ -526,6 +540,7 @@ namespace Wahoo_
             int count = 0;
             for (int i = 0; i < arr.Length; i++)
             {
+                Array.Sort(arr);
                 int currentNum = arr[i];
                 int previousNum;
                 if (i == 0)
@@ -566,6 +581,7 @@ namespace Wahoo_
         // Full House
         public bool fullHouse(int[] arr)
         {
+            Array.Sort(arr);
             if (((arr[0] == arr[1]) && (arr[1] == arr[2]) && (arr[0] == arr[2]) && (arr[3] == arr[4])))
             {
                 return true;
